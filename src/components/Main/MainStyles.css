@@ -1,0 +1,134 @@
+.container-main {
+    height: 62vh;
+
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    max-width: 100%;
+
+}
+
+
+.container-hero {
+    background-color: #4daded;
+    height: 33vh;
+
+    margin: 0;
+    padding: 10px;
+    width: auto;
+    position: relative;
+    overflow: none;
+
+
+
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    border-top: 90px solid rgb(255, 255, 255);
+    transform: rotate(45deg) translate(-50%, -50%);
+    top: 23%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+
+}
+
+.line:nth-of-type(2) {
+    position: relative;
+    height: 1px;
+    border-top: 90px solid #ff5a5f;
+    transform: rotate(45deg) translate(-50%, -50%);
+    top: 39%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+
+.line:nth-of-type(3) {
+    top: 56%;
+}
+
+.container-introduction {
+
+
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+    margin-top: -8%;
+    padding-left: 10%;
+    width: auto;
+
+
+
+
+}
+
+.container-portrait {
+
+    position: relative;
+    display: flex;
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 50%;
+    border: 20px solid white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+#self-portrait {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-position: 0px -50px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+
+
+
+
+#intro-text {
+    flex-direction: row;
+    margin-top: -30px;
+    margin-left: 10px;
+    color: rgb(255, 254, 254);
+}
+
+#my-name {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    font-variant: small-caps;
+
+
+}
+
+#my-description {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 5px;
+    font-style: italic;
+    color: #4daded;
+    /* text-align: center; */
+
+}

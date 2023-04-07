@@ -1,0 +1,110 @@
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+
+}
+
+#projects-content {
+    display: flex;
+    justify-content: center;
+
+
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+
+    width: auto;
+    color: black;
+
+}
+
+.card {
+    overflow: hidden;
+    margin: 2% 0;
+    padding: 0;
+    transition: 0.5s ease-in;
+    height: fit-content;
+}
+
+.card:hover {
+    transform: scale(1.005);
+    transition: transform 0.5s ease-out;
+    box-shadow: 0 0 5px 0 rgba(68, 96, 255, 0.5);
+    transition: box-shadow 0.5s ease;
+}
+
+.card.img-top {
+    overflow: hidden;
+}
+
+.card.card-img {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 20px solid white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    display: relative;
+}
+
+img.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    object-position: 0 13px;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0;
+
+}
+
+img.card-img-top:hover {
+    transform: scale(1.01);
+    transition: transform 0.5s ease;
+}
+
+.card-img-container {
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: .1px solid rgb(187, 187, 187);
+}
+
+#chatty-img {
+    overflow: hidden;
+    object-position: 50% 10px;
+
+}
+
+#pixelperfect {
+    object-position: center;
+    object-position: -30px 10px;
+}
+
+div.card-body {
+    height: 24rem;
+}
+
+div.card-body>button.btn.btn-primary {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+}
