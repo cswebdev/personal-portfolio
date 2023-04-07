@@ -12,8 +12,7 @@ root.render(
       <Router>
          <Routes>
             <Route path="/" element={<App />}>
-               <Route path="/main" element={<Main />} />
-               <Route index element={<App />} />
+               <Route path="/home" index element={<Main />} />
             </Route>
             <Route path="*" element={<h1>404 Not Found</h1>} />
          </Routes>

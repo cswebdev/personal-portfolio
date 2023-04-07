@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Why is my readme rendering but not my app? What the heck? 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
